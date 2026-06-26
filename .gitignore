@@ -1,3 +1,6 @@
 # redacted 学生作文扫描件 / 官方示例 — 绝不进 public repo
 *.pdf
 0509_*
+
+# 批改报告含学生作文分析 — 不进 public repo
+marking-reports/
