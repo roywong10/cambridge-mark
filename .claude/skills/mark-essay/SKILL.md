@@ -52,8 +52,9 @@ description: 端到端批改一份 0509/23 中文作文 response——用 Claude
   Section 2 = Q8,S&A 8 + C&S 8 = 16/25(理由…)
   Total = 34/50
 标注清单:
-  每个有内容的页 → SEEN(落点:页眉旁或页底空白格)
-  page 11 错别字「来沛」 → H Wavy
+  每一页 → SEEN(落点:页眉空白处)
+  page 11 错别字「沛」(应"说") → Highlight(笔)
+  page 11 病句「不对有利也有弊」 → H Wavy(波浪线)
   page 11 好论点「…」 → Tick
   page 15 情感结句「…」 → Tick
 ```
@@ -88,8 +89,9 @@ Total marks XX/50   [Save]
 
 左侧工具(自上而下,红色组):`SEEN` / `?` / `H Wavy`(波浪线)/ `Highlight` / `^` / `Tick` / `DET`。细节见 `rules/annotation.md`。
 
-- **SEEN 基本每页都打**,落点选**空白处**(页眉旁、页底空白格),**别压在字上**。
-- 证据标记(`H Wavy` / `Tick` / `DET` 等)稀疏、有代表性,落在对应的字/句上。
+- **SEEN 每页都打**,落点选**页眉空白处**,**别压在字上**。
+- **错别字 → `Highlight`(笔)**;**语法 / 措辞错误(病句、用词不当)→ `H Wavy`(波浪线)**。落在对应的字/句上。
+- 其余证据标记(`Tick` / `DET`)稀疏、有代表性。
 - **删单个标注**:**右键标注 → 点 `Remove annotation`**。
 - ⚠️ **危险**:同一右键菜单里还有 **`Reset marks & annotations`**——它会**清空整题的分数 + 所有标注**。**绝不能误点它的 `Yes`**;误弹出时点 `No`。删单个标注只用 `Remove annotation`,不要用它。
 
